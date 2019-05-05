@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Statement</key>
+		<array>
+			<dict>
+				<key>amount</key>
+				<string>+100,00 BYN</string>
+				<key>desc</key>
+				<string>Зачисление средств</string>
+				<key>date</key>
+				<string>16.05.2018</string>
+			</dict>
+			<dict>
+				<key>amount</key>
+				<string>-12,23 BYN</string>
+				<key>desc</key>
+				<string>Оплата товаров и услуг</string>
+				<key>date</key>
+				<string>14.05.2018</string>
+			</dict>
+			<dict>
+				<key>amount</key>
+				<string>+50,00 BYN</string>
+				<key>desc</key>
+				<string>Зачисление средств</string>
+				<key>date</key>
+				<string>17.05.2018</string>
+			</dict>
+			<dict>
+				<key>amount</key>
+				<string>-36,78 BYN</string>
+				<key>desc</key>
+				<string>Оплата товаров и услуг</string>
+				<key>date</key>
+				<string>15.05.2018</string>
+			</dict>
+		</array>
+		<key>name</key>
+		<string>Visa Classic</string>
+		<key>number</key>
+		<string>1*** **** **** 1223</string>
+		<key>iban</key>
+		<string>123456789009876543211234567</string>
+		<key>valid</key>
+		<string>11/2018</string>
+		<key>amount</key>
+		<string>987,12 BYN</string>
+		<key>imageName</key>
+		<string>visaImg</string>
+		<key>imageImg</key>
+		<string>visaText</string>
+	</dict>
+	<dict>
+		<key>Statement</key>
+		<array>
+			<dict>
+				<key>amount</key>
+				<string>+90,00 BYN</string>
+				<key>desc</key>
+				<string>Зачисление средств</string>
+				<key>date</key>
+				<string>16.05.2018</string>
+			</dict>
+			<dict>
+				<key>amount</key>
+				<string>-10,23 BYN</string>
+				<key>desc</key>
+				<string>Оплата товаров и услуг</string>
+				<key>date</key>
+				<string>14.05.2018</string>
+			</dict>
+			<dict>
+				<key>amount</key>
+				<string>+56,00 BYN</string>
+				<key>desc</key>
+				<string>Зачисление средств</string>
+				<key>date</key>
+				<string>17.05.2018</string>
+			</dict>
+			<dict>
+				<key>amount</key>
+				<string>-39,78 BYN</string>
+				<key>desc</key>
+				<string>Оплата товаров и услуг</string>
+				<key>date</key>
+				<string>15.05.2018</string>
+			</dict>
+		</array>
+		<key>name</key>
+		<string>Mastercard</string>
+		<key>number</key>
+		<string>2*** **** **** 3456</string>
+		<key>iban</key>
+		<string>987654321098765432101234567</string>
+		<key>valid</key>
+		<string>03/2019</string>
+		<key>amount</key>
+		<string>349,56 BYN</string>
+		<key>imageName</key>
+		<string>mastercardImg</string>
+		<key>imageImg</key>
+		<string>mastercardText</string>
+	</dict>
+	<dict>
+		<key>Statement</key>
+		<array>
+			<dict>
+				<key>amount</key>
+				<string>+100,00 BYN</string>
+				<key>desc</key>
+				<string>Зачисление средств</string>
+				<key>date</key>
+				<string>16.05.2018</string>
+			</dict>
+			<dict>
+				<key>amount</key>
+				<string>-12,23 BYN</string>
+				<key>desc</key>
+				<string>Оплата товаров и услуг</string>
+				<key>date</key>
+				<string>14.05.2018</string>
+			</dict>
+			<dict>
+				<key>amount</key>
+				<string>+50,00 BYN</string>
+				<key>desc</key>
+				<string>Зачисление средств</string>
+				<key>date</key>
+				<string>17.05.2018</string>
+			</dict>
+			<dict>
+				<key>amount</key>
+				<string>-36,78 BYN</string>
+				<key>desc</key>
+				<string>Оплата товаров и услуг</string>
+				<key>date</key>
+				<string>15.05.2018</string>
+			</dict>
+		</array>
+		<key>name</key>
+		<string>Maestro</string>
+		<key>number</key>
+		<string>3*** **** **** 9876</string>
+		<key>iban</key>
+		<string>123456789012345678901234567</string>
+		<key>valid</key>
+		<string>07/2020</string>
+		<key>amount</key>
+		<string>275,43 BYN</string>
+		<key>imageName</key>
+		<string>maestroImg</string>
+		<key>imageImg</key>
+		<string>maestroText</string>
+	</dict>
+	<dict>
+		<key>Statement</key>
+		<array>
+			<dict>
+				<key>amount</key>
+				<string>+100,00 BYN</string>
+				<key>desc</key>
+				<string>Зачисление средств</string>
+				<key>date</key>
+				<string>16.05.2018</string>
+			</dict>
+			<dict>
+				<key>amount</key>
+				<string>-12,23 BYN</string>
+				<key>desc</key>
+				<string>Оплата товаров и услуг</string>
+				<key>date</key>
+				<string>14.05.2018</string>
+			</dict>
+			<dict>
+				<key>amount</key>
+				<string>+50,00 BYN</string>
+				<key>desc</key>
+				<string>Зачисление средств</string>
+				<key>date</key>
+				<string>17.05.2018</string>
+			</dict>
+			<dict>
+				<key>amount</key>
+				<string>-36,78 BYN</string>
+				<key>desc</key>
+				<string>Оплата товаров и услуг</string>
+				<key>date</key>
+				<string>15.05.2018</string>
+			</dict>
+		</array>
+		<key>name</key>
+		<string>Белкарт</string>
+		<key>number</key>
+		<string>4*** **** **** 5678</string>
+		<key>iban</key>
+		<string>987654321001234567896782344</string>
+		<key>valid</key>
+		<string>12/2021</string>
+		<key>amount</key>
+		<string>2,65 BYN</string>
+		<key>imageName</key>
+		<string>belcardImg</string>
+		<key>imageImg</key>
+		<string>belcardText</string>
+	</dict>
+</array>
+</plist>

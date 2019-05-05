@@ -1,0 +1,6 @@
+framework module Pods_Watch1S {
+  umbrella header "Pods-Watch1S-umbrella.h"
+
+  export *
+  module * { export * }
+}

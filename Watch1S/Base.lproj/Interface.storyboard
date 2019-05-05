@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14113" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch42" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14033"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Bank-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="Cards" title="Bank" id="AgC-eL-Hgc" customClass="CardsInterfaceController" customModule="Watch1S_Extension">
+                    <items>
+                        <table alignment="left" id="0kq-rh-Xgq">
+                            <items>
+                                <tableRow identifier="CardRowType" id="WzZ-L4-Gdq" customClass="CardRowController" customModule="Watch1S_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="ffl-Lf-oRU">
+                                        <items>
+                                            <group alignment="left" verticalAlignment="center" radius="15" id="HCJ-sS-Ppg">
+                                                <items>
+                                                    <imageView width="30" height="30" alignment="left" verticalAlignment="center" id="hWa-Vf-9hX"/>
+                                                </items>
+                                                <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                            </group>
+                                            <group width="95" alignment="left" layout="vertical" id="Ncn-TC-dcp">
+                                                <items>
+                                                    <label alignment="left" text="Card" numberOfLines="0" id="slT-JI-cfz">
+                                                        <fontDescription key="font" type="system" pointSize="16"/>
+                                                    </label>
+                                                    <label alignment="left" text="Number" numberOfLines="0" id="q6u-oP-8xU">
+                                                        <color key="textColor" red="0.58823529411764708" green="0.62352941176470589" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="font" type="system" pointSize="16"/>
+                                                    </label>
+                                                </items>
+                                            </group>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="cardLabel" destination="slT-JI-cfz" id="SCs-6L-EaZ"/>
+                                        <outlet property="imageImg" destination="hWa-Vf-9hX" id="Vee-wL-tl0"/>
+                                        <outlet property="numberLabel" destination="q6u-oP-8xU" id="LvG-Cz-b56"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <color key="backgroundColor" red="0.12156862745098039" green="0.1764705882352941" blue="0.23921568627450979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="cardsTable" destination="0kq-rh-Xgq" id="0wP-68-Wee"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Карта-->
+        <scene sceneID="VM5-b6-SxL">
+            <objects>
+                <controller identifier="InfoInterfaceController" title="Карта" id="h9d-HH-mGj" customClass="InfoInterfaceController" customModule="Watch1S_Extension">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="OhB-Bb-uWh">
+                            <items>
+                                <group width="1" height="16" alignment="left" radius="5" id="qwf-Cr-enX">
+                                    <items>
+                                        <imageView width="50" height="1" alignment="right" verticalAlignment="center" contentMode="scaleAspectFit" id="AXC-1X-HFF" userLabel="Image Text">
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </imageView>
+                                    </items>
+                                    <color key="backgroundColor" red="0.55294117647058827" green="0.51372549019607838" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </group>
+                                <group width="147" alignment="right" layout="vertical" id="8CZ-YG-JvM">
+                                    <items>
+                                        <label alignment="left" text="Name" numberOfLines="0" id="euT-1P-3NT" userLabel="Name Label">
+                                            <color key="textColor" red="0.20392156862745098" green="0.24705882352941178" blue="0.29411764705882354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="font" type="system" pointSize="16"/>
+                                        </label>
+                                        <label alignment="left" text="Number" numberOfLines="0" id="hwr-or-Kt6" userLabel="Number Label">
+                                            <color key="textColor" red="0.58823529411764708" green="0.62352941176470589" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="font" type="system" pointSize="16"/>
+                                        </label>
+                                        <label alignment="left" text="Amount" numberOfLines="0" id="yUX-N2-Xkh" userLabel="Amount Label">
+                                            <color key="textColor" red="0.20392156862745098" green="0.24705882352941178" blue="0.29411764705882354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="font" type="system" weight="medium" pointSize="17"/>
+                                        </label>
+                                    </items>
+                                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                </group>
+                            </items>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </group>
+                        <button width="1" alignment="left" title="Выписка" id="0tV-bO-QV5">
+                            <fontDescription key="font" type="system" pointSize="15"/>
+                            <connections>
+                                <action selector="onStatementButton" destination="h9d-HH-mGj" id="YKv-GE-TSV"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="О карте" id="URw-jB-TKc">
+                            <fontDescription key="font" type="system" pointSize="15"/>
+                            <connections>
+                                <action selector="onAboutButton" destination="h9d-HH-mGj" id="uze-D3-N9U"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <color key="backgroundColor" red="0.12156862745098039" green="0.1764705882352941" blue="0.23921568627450979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="amountLabel" destination="yUX-N2-Xkh" id="1P3-zt-vfb"/>
+                        <outlet property="imageText" destination="AXC-1X-HFF" id="VHo-A3-myK"/>
+                        <outlet property="nameLabel" destination="euT-1P-3NT" id="zDa-iZ-3CH"/>
+                        <outlet property="numberLabel" destination="hwr-or-Kt6" id="mAz-e6-k0f"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="508.25641025641028" y="346.10256410256414"/>
+        </scene>
+        <!--Выписка-->
+        <scene sceneID="QBR-wi-I1s">
+            <objects>
+                <controller identifier="StatementInterfaceController" title="Выписка" id="jae-ZK-Xkt" customClass="StatementInterfaceController" customModule="Watch1S_Extension">
+                    <items>
+                        <label alignment="center" text="За неделю" id="sPN-Ve-asV">
+                            <fontDescription key="font" name="Roboto-Regular" family="Roboto" pointSize="13"/>
+                        </label>
+                        <table alignment="left" id="lHf-AR-p0R">
+                            <items>
+                                <tableRow identifier="StatementRowType" id="xQn-2X-NzN" customClass="StatementRowController" customModule="Watch1S_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="0ng-c1-IM6">
+                                        <items>
+                                            <label alignment="left" text="Amount" numberOfLines="0" id="iBp-mU-LOE" userLabel="Amount Label">
+                                                <fontDescription key="font" type="system" pointSize="16"/>
+                                            </label>
+                                            <label alignment="left" text="Desc" numberOfLines="0" id="wdz-wb-d8j" userLabel="Desc Label">
+                                                <color key="textColor" red="0.58823529411764708" green="0.62352941176470589" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="font" type="system" weight="medium" pointSize="14"/>
+                                            </label>
+                                            <label alignment="left" text="Date" numberOfLines="0" id="veW-aV-sXP" userLabel="Date Label">
+                                                <fontDescription key="font" type="system" weight="medium" pointSize="14"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="amountLabel" destination="iBp-mU-LOE" id="GhR-TM-bxG"/>
+                                        <outlet property="dateLabel" destination="veW-aV-sXP" id="tq4-jz-c1B"/>
+                                        <outlet property="descLabel" destination="wdz-wb-d8j" id="9aD-G6-UYg"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <color key="backgroundColor" red="0.12156862745098039" green="0.1764705882352941" blue="0.23921568627450979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="statementTable" destination="lHf-AR-p0R" id="b1d-LO-93b"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="740" y="345"/>
+        </scene>
+        <!--Реквизиты-->
+        <scene sceneID="y2U-6X-EYm">
+            <objects>
+                <controller identifier="RequisiteInterfaceController" title="Реквизиты" id="Xwr-S3-7Ze" customClass="RequisiteInterfaceController" customModule="Watch1S_Extension">
+                    <items>
+                        <table alignment="left" id="NE3-fV-Nse">
+                            <items>
+                                <tableRow identifier="RequisiteBankRowType" id="zXi-tl-5tE" customClass="RequisiteBankRowController" customModule="Watch1S_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="y6b-pq-xjm">
+                                        <items>
+                                            <label alignment="left" text="Банк" numberOfLines="0" id="nTc-OX-oDe">
+                                                <color key="textColor" red="0.58823529409999997" green="0.62352941179999999" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="font" type="system" weight="light" pointSize="10"/>
+                                            </label>
+                                            <label alignment="left" text="bank" numberOfLines="0" id="0xv-i9-pQK"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="descLabel" destination="0xv-i9-pQK" id="OFW-Ly-eTp"/>
+                                        <outlet property="titleLabel" destination="nTc-OX-oDe" id="AiW-fD-u9X"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <color key="backgroundColor" red="0.12156862745098039" green="0.1764705882352941" blue="0.23921568627450979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="requisiteTable" destination="NE3-fV-Nse" id="yGY-tM-tUz"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1017" y="461"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.0" green="0.65098039215686276" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</document>
